@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89EEB2DF24F38774008DF764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2DE24F38774008DF764 /* AppDelegate.swift */; };
+		89EEB2E124F38774008DF764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2E024F38774008DF764 /* SceneDelegate.swift */; };
+		89EEB2E324F38774008DF764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2E224F38774008DF764 /* ViewController.swift */; };
+		89EEB2E624F38774008DF764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EEB2E424F38774008DF764 /* Main.storyboard */; };
+		89EEB2E924F38774008DF764 /* Covic_19_Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2E724F38774008DF764 /* Covic_19_Recorder.xcdatamodeld */; };
+		89EEB2EB24F38775008DF764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EEB2EA24F38775008DF764 /* Assets.xcassets */; };
+		89EEB2EE24F38775008DF764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EEB2EC24F38775008DF764 /* LaunchScreen.storyboard */; };
+		89EEB2F624F38B2C008DF764 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2F524F38B2C008DF764 /* CustomButton.swift */; };
+		89EEB2F924F38EE1008DF764 /* KeepRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2F824F38EE1008DF764 /* KeepRecordVC.swift */; };
+		89EEB2FB24F38F05008DF764 /* ShowRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2FA24F38F05008DF764 /* ShowRecordVC.swift */; };
+		89EEB2FD24F39675008DF764 /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB2FC24F39675008DF764 /* RecordCell.swift */; };
+		89EEB30524F3B74B008DF764 /* Edit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EEB30424F3B74B008DF764 /* Edit.storyboard */; };
+		89EEB30724F3B886008DF764 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEB30624F3B886008DF764 /* EditVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89EEB2DB24F38774008DF764 /* Covic 19 Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covic 19 Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EEB2DE24F38774008DF764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89EEB2E024F38774008DF764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89EEB2E224F38774008DF764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89EEB2E524F38774008DF764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89EEB2E824F38774008DF764 /* Covic_19_Recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Covic_19_Recorder.xcdatamodel; sourceTree = "<group>"; };
+		89EEB2EA24F38775008DF764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89EEB2ED24F38775008DF764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89EEB2EF24F38775008DF764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EEB2F524F38B2C008DF764 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		89EEB2F824F38EE1008DF764 /* KeepRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepRecordVC.swift; sourceTree = "<group>"; };
+		89EEB2FA24F38F05008DF764 /* ShowRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRecordVC.swift; sourceTree = "<group>"; };
+		89EEB2FC24F39675008DF764 /* RecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
+		89EEB30424F3B74B008DF764 /* Edit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Edit.storyboard; sourceTree = "<group>"; };
+		89EEB30624F3B886008DF764 /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EEB2D824F38774008DF764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EEB2D224F38774008DF764 = {
+			isa = PBXGroup;
+			children = (
+				89EEB2DD24F38774008DF764 /* Covic 19 Recorder */,
+				89EEB2DC24F38774008DF764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EEB2DC24F38774008DF764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EEB2DB24F38774008DF764 /* Covic 19 Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EEB2DD24F38774008DF764 /* Covic 19 Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				89EEB2F724F38EAD008DF764 /* Controller */,
+				89EEB2DE24F38774008DF764 /* AppDelegate.swift */,
+				89EEB2E024F38774008DF764 /* SceneDelegate.swift */,
+				89EEB2E224F38774008DF764 /* ViewController.swift */,
+				89EEB2E424F38774008DF764 /* Main.storyboard */,
+				89EEB2EA24F38775008DF764 /* Assets.xcassets */,
+				89EEB2EC24F38775008DF764 /* LaunchScreen.storyboard */,
+				89EEB2EF24F38775008DF764 /* Info.plist */,
+				89EEB2E724F38774008DF764 /* Covic_19_Recorder.xcdatamodeld */,
+				89EEB2F524F38B2C008DF764 /* CustomButton.swift */,
+			);
+			path = "Covic 19 Recorder";
+			sourceTree = "<group>";
+		};
+		89EEB2F724F38EAD008DF764 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89EEB30124F3B4DB008DF764 /* Edit */,
+				89EEB2F824F38EE1008DF764 /* KeepRecordVC.swift */,
+				89EEB2FA24F38F05008DF764 /* ShowRecordVC.swift */,
+				89EEB2FC24F39675008DF764 /* RecordCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89EEB30124F3B4DB008DF764 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				89EEB30424F3B74B008DF764 /* Edit.storyboard */,
+				89EEB30624F3B886008DF764 /* EditVC.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89EEB2DA24F38774008DF764 /* Covic 19 Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EEB2F224F38775008DF764 /* Build configuration list for PBXNativeTarget "Covic 19 Recorder" */;
+			buildPhases = (
+				89EEB2D724F38774008DF764 /* Sources */,
+				89EEB2D824F38774008DF764 /* Frameworks */,
+				89EEB2D924F38774008DF764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Covic 19 Recorder";
+			productName = "Covic 19 Recorder";
+			productReference = 89EEB2DB24F38774008DF764 /* Covic 19 Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EEB2D324F38774008DF764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Appnap WS04";
+				TargetAttributes = {
+					89EEB2DA24F38774008DF764 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 89EEB2D624F38774008DF764 /* Build configuration list for PBXProject "Covic 19 Recorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89EEB2D224F38774008DF764;
+			productRefGroup = 89EEB2DC24F38774008DF764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EEB2DA24F38774008DF764 /* Covic 19 Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89EEB2D924F38774008DF764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EEB2EE24F38775008DF764 /* LaunchScreen.storyboard in Resources */,
+				89EEB30524F3B74B008DF764 /* Edit.storyboard in Resources */,
+				89EEB2EB24F38775008DF764 /* Assets.xcassets in Resources */,
+				89EEB2E624F38774008DF764 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EEB2D724F38774008DF764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EEB2E924F38774008DF764 /* Covic_19_Recorder.xcdatamodeld in Sources */,
+				89EEB30724F3B886008DF764 /* EditVC.swift in Sources */,
+				89EEB2E324F38774008DF764 /* ViewController.swift in Sources */,
+				89EEB2FD24F39675008DF764 /* RecordCell.swift in Sources */,
+				89EEB2F924F38EE1008DF764 /* KeepRecordVC.swift in Sources */,
+				89EEB2DF24F38774008DF764 /* AppDelegate.swift in Sources */,
+				89EEB2E124F38774008DF764 /* SceneDelegate.swift in Sources */,
+				89EEB2FB24F38F05008DF764 /* ShowRecordVC.swift in Sources */,
+				89EEB2F624F38B2C008DF764 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89EEB2E424F38774008DF764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EEB2E524F38774008DF764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89EEB2EC24F38775008DF764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EEB2ED24F38775008DF764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89EEB2F024F38775008DF764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89EEB2F124F38775008DF764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89EEB2F324F38775008DF764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZL7MBU24B;
+				INFOPLIST_FILE = "Covic 19 Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.ThumbnailMaker.sohagDev.Covic-19-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89EEB2F424F38775008DF764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZL7MBU24B;
+				INFOPLIST_FILE = "Covic 19 Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.ThumbnailMaker.sohagDev.Covic-19-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EEB2D624F38774008DF764 /* Build configuration list for PBXProject "Covic 19 Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EEB2F024F38775008DF764 /* Debug */,
+				89EEB2F124F38775008DF764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EEB2F224F38775008DF764 /* Build configuration list for PBXNativeTarget "Covic 19 Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EEB2F324F38775008DF764 /* Debug */,
+				89EEB2F424F38775008DF764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89EEB2E724F38774008DF764 /* Covic_19_Recorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89EEB2E824F38774008DF764 /* Covic_19_Recorder.xcdatamodel */,
+			);
+			currentVersion = 89EEB2E824F38774008DF764 /* Covic_19_Recorder.xcdatamodel */;
+			path = Covic_19_Recorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89EEB2D324F38774008DF764 /* Project object */;
+}
